@@ -7,93 +7,102 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar4"
-        android:layout_width="640dp"
-        android:layout_height="95dp"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="92dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="213dp"
+        android:layout_height="26dp"
+        android:text="@string/Powhaslo"
+        android:textColor="#686363"
 
-    <EditText
-        android:id="@+id/editTextNumberPassword3"
-        android:layout_width="637dp"
-        android:layout_height="118dp"
-        android:ems="10"
-        android:inputType="numberPassword"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="433dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="177dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="254dp"
-        android:layout_height="95dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="600dp" />
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="180dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#D4D5D5"
+        android:text="@string/btnzatw"
+        android:textColor="#000000"
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="635dp"
-        android:layout_height="128dp"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="187dp" />
+        app:strokeColor="#D4D5D5"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="303dp" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="260dp"
-        android:layout_height="50dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="187dp" />
+        android:layout_width="187dp"
+        android:layout_height="34dp"
+        android:text="@string/Podemail"
+        android:textColor="#686363"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword3"
+        android:layout_width="421dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:text="@string/haslo2"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="141dp"
+        android:layout_height="30dp"
+        android:text="@string/witaj"
+        android:textColor="#686363"
+
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="390dp" />
 
     <EditText
         android:id="@+id/editTextNumberPassword"
-        android:layout_width="637dp"
-        android:layout_height="118dp"
+        android:layout_width="423dp"
+        android:layout_height="36dp"
         android:ems="10"
         android:inputType="numberPassword"
-        tools:layout_editor_absoluteX="-4dp"
-        tools:layout_editor_absoluteY="315dp" />
+        android:text="@string/haslo"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="149dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="260dp"
-        android:layout_height="50dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="315dp" />
+        android:layout_width="248dp"
+        android:layout_height="38dp"
+        android:text="@string/Podhaslo"
+        android:textColor="#686363"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="422dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/email"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="85dp" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="260dp"
-        android:layout_height="50dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="433dp" />
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="640dp"
-        android:layout_height="95dp"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="-4dp" />
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar3"
-        android:layout_width="640dp"
-        android:layout_height="95dp"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="-4dp" />
+        android:id="@+id/textView7"
+        android:layout_width="462dp"
+        android:layout_height="62dp"
+        android:background="#007F7F"
+        android:text="@string/title"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

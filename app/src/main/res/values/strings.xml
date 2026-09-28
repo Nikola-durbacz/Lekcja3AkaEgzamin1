@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Lekcja3</string>
+    <string name="title">Rejestruj konto</string>
+    <string name="Podemail"> Podaj e-mail</string>
+    <string name="email">ewa@poczta.pl</string>
+    <string name="Podhaslo"> Podaj hasło</string>
+    <string name="haslo">******</string>
+    <string name="Powhaslo"> Powtórz hasło</string>
+    <string name="haslo2">******</string>
+    <string name="btnzatw">ZATWIERDŹ</string>
+    <string name="witaj"> Witaj ewa@poczta.pl</string>
+
+
 </resources>
