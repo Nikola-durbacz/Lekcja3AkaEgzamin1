@@ -99,6 +99,7 @@
         android:layout_height="62dp"
         android:background="#007F7F"
         android:text="@string/title"
+        android:textColor="#FBF6F6"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
