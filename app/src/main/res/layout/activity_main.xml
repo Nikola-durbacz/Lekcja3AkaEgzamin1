@@ -7,13 +7,63 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/editTextNumberPassword3"
+        android:layout_width="637dp"
+        android:layout_height="118dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="254dp"
+        android:layout_height="95dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="635dp"
+        android:layout_height="128dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="222dp" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/textView4"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="637dp"
+        android:layout_height="118dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="456dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
